@@ -99,7 +99,5 @@ related Frameworks (Bootstrap)
 
 ![Logo](https://codingninja.asia/images/codeninjalogo.png)
 
-## Hướng dẫn
 
-https://www.youtube.com/watch?v=yi2b9U1kQyc&t=1s
 
