@@ -22,17 +22,17 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'caovanvinh2003@gmail.com';                     //SMTP username
-    $mail->Password   = 'matonhoffqsfgacz';                               //SMTP password
+    $mail->Username   = 'email nguoi gui';                     //SMTP username
+    $mail->Password   = 'SMTP Password';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('caovanvinh2003@gmail.com', 'Vinh Van Cao (Ho tro ky thuat)');
-    $mail->addAddress('minhhieunguyen143@gmail.com', 'Minh Hieu');     //Add a recipient
+    $mail->setFrom('email nguoi gui', 'nguoi gui');
+    $mail->addAddress('email nguoi nhan', 'ten nguoi nhan');     //Add a recipient
     // $mail->addReplyTo('info@example.com', 'Information');
     // $mail->addCC('cc@example.com');
-    $mail->addBCC('1gloryentertainmentvn@gmail.com');
+    $mail->addBCC('email nhan BCC');
 
     //Attachments
     // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
