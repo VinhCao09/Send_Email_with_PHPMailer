@@ -1,6 +1,6 @@
 # Send Email with PHPMailer
 
-Trong dự án này tôi sử dụng package PHPMailer và sử dụng SMTP của Gmail để gửi email.
+Trong dự án này tôi sử dụng package PHPMailer và sử dụng SMTP của Gmail để gửi email. 
 
 ### Khởi động một tool như XAMPP để khởi động môi trường Apache để gói thư viện hoạt động!
 
